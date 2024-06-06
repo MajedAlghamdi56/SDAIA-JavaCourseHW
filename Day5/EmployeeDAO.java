@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 public class EmployeeDAO {
 
-    private static final String URL = ""jdbc:sqlite:C:\\Users\\Ahmed\\Documents\\JAVA PROJECTS\\demo\\src\\main\\java\\com\\example\\hr.db"";
+    private static final String URL = ""jdbc:sqlite:C:\\Users\\Majed\\Documents\\JAVA PROJECTS\\demo\\src\\main\\java\\com\\example\\hr.db"";
     private static final String SELECT_ALL_EMPLOYEES = "SELECT * FROM employees";
     private static final String SELECT_ONE_EMPLOYEE = "SELECT * FROM employees WHERE employee_id = ?";
     private static final String INSERT_EMPLOYEE = "INSERT INTO employees (employee_id, first_name, last_name, email, phone_number, hire_date, job_id, salary, manager_id, department_id) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
