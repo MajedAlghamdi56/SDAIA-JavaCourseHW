@@ -7,7 +7,7 @@ import java.util.List;
 public class EmployeeDAO {
     private Connection connect() {
         
-        String url = "jdbc:sqlite:C:\\Users\\Ahmed\\Documents\\JAVA PROJECTS\\demo\\src\\main\\java\\com\\example\\hr.db";
+        String url = "jdbc:sqlite:C:\\Users\\Majed\\Documents\\JAVA PROJECTS\\demo\\src\\main\\java\\com\\example\\hr.db";
         Connection conn = null;
         try {
             conn = DriverManager.getConnection(url);
